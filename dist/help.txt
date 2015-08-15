@@ -1,0 +1,23 @@
+usage: udemy-dl.exe [-h] [-u USERNAME] [-p PASSWORD]
+                    [--lecture-start LECTURE_START]
+                    [--lecture-end LECTURE_END] [-o OUTPUT_DIR] [-v]
+                    link
+
+Fetch all the videos for a udemy course
+
+positional arguments:
+  link                  Link for udemy course
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u USERNAME, --username USERNAME
+                        Username/Email
+  -p PASSWORD, --password PASSWORD
+                        Password
+  --lecture-start LECTURE_START
+                        Lecture to start at (default is 1)
+  --lecture-end LECTURE_END
+                        Lecture to end at (default is last)
+  -o OUTPUT_DIR, --output-dir OUTPUT_DIR
+                        Output directory
+  -v, --version         Display the version of udemy-dl and exit
