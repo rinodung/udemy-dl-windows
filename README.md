@@ -55,12 +55,12 @@ optional arguments:
 
 ### Upadating
 
-For updating, run `update.cmd` in the same folder of `udemy-dl.exe` and `curl.exe`
+For updating components or to latest development version, run `update.cmd` in the same folder of `udemy-dl.exe` and `curl.exe`
 
 ### Downloader 
-By default `udemy-dl.exe` uses `aria2c.exe`, and if it is missing `curl.exe` and will use built in `wget` function to download the video file. You can delete `area2c.exe` if it is not working or wants to use `curl.exe`.
+By default `udemy-dl.exe` uses `aria2c.exe` to download the video file. If it is missing it will try `curl.exe`, and if both these downloaders are missing it will use built in `wget` function. You can delete `area2c.exe` if it is not working or wants to use `curl.exe`.
 
 ### Versioning 
-This tool will use  MINOR and PATCH version of <https://github.com/gaganpreet/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be custom appraoch with <http://semver.org/>.
+This tool will use  MINOR and PATCH version of <https://github.com/gaganpreet/udemy-dl>, as MAJOR and MINOR versions, and its own changes as PATCH version. Which will be a dirty approach with <http://semver.org/>.
 
 For example `v 0.1.7` of `udemy-dl` will be used in `v 1.7.X` of `udemy-dl.exe`.
